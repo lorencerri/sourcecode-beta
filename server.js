@@ -18,6 +18,6 @@ const cookieParser = require('cookie-parser'),
 const Enmap = require('enmap');
 const EnmapSQLite = require('enmap-sqlite');
 const db = new Enmap({ provider: new EnmapSQLite({ name: 'database' }) });
-db.defer.then(() => console.log(db.size));
+db.defer.then(() => console.log(`Database Entries: ${db.size}`));
 
 console.log('Packages Installed');
