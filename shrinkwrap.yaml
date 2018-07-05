@@ -5,6 +5,7 @@ dependencies:
   enmap: 2.6.3
   enmap-sqlite: 2.0.3
   express: 4.16.3
+  http: 0.0.0
   snekfetch: 4.0.4
   socket.io: 2.1.1
   url: 0.11.0
@@ -417,6 +418,10 @@ packages:
       node: '>= 0.6'
     resolution:
       integrity: sha1-i1VoC7S+KDoLW/TqLjhYC+HZMg0=
+  /http/0.0.0:
+    dev: false
+    resolution:
+      integrity: sha1-huYybSnF0Dnen6xYSkVon5KfT3I=
   /iconv-lite/0.4.19:
     dev: false
     engines:
@@ -855,7 +860,6 @@ packages:
       uws: ^9.14.0
       zlib-sync: ^0.1.0
     resolution:
-      registry: 'https://registry.npmjs.org/'
       tarball: 'https://codeload.github.com/hydrabolt/discord.js/tar.gz/95b2dd3fe63ec9b6c7cec4f63f8276f4d907f228'
     version: 12.0.0-dev
 registry: 'https://registry.npmjs.org/'
@@ -864,10 +868,11 @@ shrinkwrapVersion: 3
 specifiers:
   client-oauth2: ^4.2.1
   cookie-parser: ^1.4.3
-  discord.js: 'github:hydrabolt/discord.js'
-  enmap: ^2.6.1
+  discord.js: 'github:hydrabolt/discord.js#95b2dd3fe63ec9b6c7cec4f63f8276f4d907f228'
+  enmap: ^2.6.3
   enmap-sqlite: ^2.0.3
   express: ^4.16.3
-  snekfetch: ^4.0.2
+  http: ^0.0.0
+  snekfetch: ^4.0.4
   socket.io: ^2.1.1
   url: ^0.11.0
