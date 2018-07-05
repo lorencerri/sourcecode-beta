@@ -14,4 +14,10 @@ const cookieParser = require('cookie-parser'),
       io           = require('socket.io')(server),
       url          = require('url');
 
+// Database
+const Enmap = require('enmap');
+const EnmapSQLite = require('enmap-sqlite');
+const db = new Enmap({ provider: new EnmapSQLite({ name: 'database' }) });
+db.defer.then(() => console.log(db.size));
+
 console.log('Packages Installed');
