@@ -1,5 +1,7 @@
 # Sourcecode Beta
 
+*Developed & Maintained by Plexi Development — https://discord.gg/plexidev*
+
 ## Roadmap
 - [ ] Custom Domain
 - [ ] Discord Login
